@@ -13,5 +13,6 @@ Then, install the package globally:
 and run it with `in` and `out` arguments:
 
 ```trello2excell --in file.json --out file.xlsx```
+
 By default, the text is written in English. If you want Farsi/Persian text, provide 
 the ```--lang fa``` argument.
