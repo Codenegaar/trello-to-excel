@@ -1,0 +1,17 @@
+{
+  "name": "trello-to-excell",
+  "version": "1.0.0",
+  "description": "A utility to convert Trello boards to MS Excell files",
+  "main": "./lib/index.js",
+  "scripts": {},
+  "bin": {
+    "trello2excell": "./bin/trello-to-excell-global.js"
+  },
+  "preferGlobal": true,
+  "author": "Ali Rashidi (alirashidi127@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "yargs": "^16.2.0"
+  }
+}
